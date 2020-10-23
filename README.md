@@ -6,6 +6,13 @@
 
 Deploy [Kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/) on [AWS](https://docs.aws.amazon.com/) manually using [Terraform](https://www.terraform.io/docs/index.html) and [Ansible](https://docs.ansible.com/ansible/latest/index.html). Setup a monitoring solution using [Prometheus](https://prometheus.io/docs/prometheus/latest/getting_started/) and [Grafana](https://grafana.com/docs/) to gain oversight of the deployment.
 
+-   [Introduction](#introduction)
+-   [Systems Diagram](#systems-diagram)
+-   [Setup](#setup)
+-   [Demo](#demo)
+-   [Resources](#resources)
+-   [Contributors](#contributors)
+
 ## Introduction
 
 Deploying Kubernetes the 'hard way' using Terraform and Ansible allows the developer to exercise more control over their cluster(s). It is also significantly cheaper than using a managed service such as [Amazon EKS](https://aws.amazon.com/eks/pricing/).
@@ -16,11 +23,11 @@ Ansible is an IT automation tool. It can configure systems, deploy software, and
 
 A monitoring solution comprised of Prometheus and Grafana provides the developer with more insight into their cluster's performance.
 
-## System Diagram
+## Systems Diagram
 
 <div align="center">
-    <img src="./assets/systemDiagram.png" width="600px" alt="system diagram">
-    <p>System Diagram</p>
+    <img src="./assets/kubesat.png" width="600px" alt="systems diagram">
+    <p>Systems Diagram</p>
 </div>
 
 ## Demo
@@ -36,11 +43,11 @@ The setup documentation can be found in [`setup.md`](setup.md)
 
 ## Resources
 
-Project icon<sup>[^](#kubesat)</sup> from [flaticon.com](https://www.flaticon.com/free-icon/retina_1632950?term=retina&page=1&position=4)
+Project icon<sup>[^](#kubesat)</sup> from [flaticon.com](https://www.flaticon.com/svg/static/icons/svg/2909/2909936.svg)
 
-System diagram<sup>[^](#system-diagram)</sup> made with [draw.io](https://draw.io/)
+Systems diagram<sup>[^](#systems-diagram)</sup> made with [draw.io](https://draw.io/)
 
-### Contributors
+## Contributors
 
 -   [Adam Alston](https://github.com/adamalston)
 -   [Kenneth Kron](https://github.com/biofool)
