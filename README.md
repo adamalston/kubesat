@@ -26,8 +26,7 @@ A monitoring solution comprised of Prometheus and Grafana provides the developer
 ## Systems Diagram
 
 <div align="center">
-    <img src="./assets/kubesat.png" width="600px" alt="systems diagram">
-    <p>Systems Diagram</p>
+    <img src="./assets/system.png" width="600px" alt="systems diagram">
 </div>
 
 ## Demo
@@ -39,11 +38,11 @@ A monitoring solution comprised of Prometheus and Grafana provides the developer
 
 ## Setup
 
-The setup documentation can be found in [`setup.md`](setup.md)
+Setup documentation can be found in [`setup.md`](setup.md)
 
 ## Resources
 
-Project icon<sup>[^](#kubesat)</sup> from [flaticon.com](https://www.flaticon.com/svg/static/icons/svg/2909/2909936.svg)
+Project icon<sup>[^](#kubesat)</sup> from [flaticon.com](https://www.flaticon.com/svg/static/icons/svg/2909/2909936.svg) (edited by me)
 
 Systems diagram<sup>[^](#systems-diagram)</sup> made with [draw.io](https://draw.io/)
 
